@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:jelly_scroll_test/scroll_animation.dart';
+import 'package:scroll_animation/scroll_animation.dart';
 // import 'live.dart' as live;
 
 void main() => runApp(const MyApp());

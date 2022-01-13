@@ -28,3 +28,4 @@
 .packages
 build/
 .metadata
+example/pubspec.lock

@@ -38,7 +38,6 @@ class PaddedScrollContainer extends StatelessWidget {
       initialData: 0.0,
       builder: (_, snapshot) => Builder(builder: (context) {
         if (usePadding) {
-          print(_motionVelocity(snapshot.data!) * maxPadding / 2);
           return Padding(
             padding: EdgeInsets.symmetric(
               vertical: _scrollDirection(context) == Axis.vertical
